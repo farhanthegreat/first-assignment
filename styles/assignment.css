@@ -86,8 +86,23 @@ header .input-primary {
     color: #444343;
 }
 main .list-align {
-    list-style-type: none;
+    margin-left: -18px;
+    list-style-type:"\1F44D";
     color: #444343;
+}
+
+.list-align li {
+    padding-bottom: 5px;
+}
+
+.my-plan {
+    position: absolute; 
+    width: 179px; 
+    height: 47px; 
+    left: 770px; 
+    top: 1792px; 
+    font-size: 40px; 
+    font-weight: 700px; 
 }
 
 /* plan styles */
@@ -98,6 +113,8 @@ main .list-align {
     height: 202.96px;
     left: 230px;
     top: 1889px;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 .plans .plans-element {
     text-align: center;
@@ -121,10 +138,10 @@ main .list-align {
     background-image:url('../images/gradient1.png'), url('../images/watch.png');
     background-repeat:no-repeat, no-repeat;
     background-position: top, left;
-    margin: 130px 230px 130px 0px;
+    margin: 130px 230px 0px 0px;
     position: absolute;
     width: 1140px;
-    height: 200px;
+    height: 300px;
     left: 230px;
     top: 2220px;
     border-radius: 10px;
@@ -134,7 +151,8 @@ main .list-align {
     color: white;
     font-size: 40px;
     font-weight: 700px;
-    margin: 30px 0px 0px 30px;
+    margin: 60px 0px 0px 60px;
+    padding-right: 600px;
 }
 
 .image-button {
@@ -142,11 +160,62 @@ main .list-align {
     height: 50px;
     border: none;
     color: #005FAC;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 20px;
     border-radius: 5px;
 }
 
 /* footer style */
 
+.footer-area {
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2651.96px;
+    margin-top: 150px;
+    background-color: black;
+}
 
+.footer-content {
+    display: flex;
+}
+
+.footer-text {
+    margin: 130px 0px 130px 130px;
+    padding-right: 40px;
+    color: white;
+}
+
+.footer-text h2 {
+    font-size: 25px; 
+    font-weight: 600px;
+}
+
+
+.sub-text {
+    color: white; 
+    font-size: 25px; 
+    font-weight: 600px; 
+    margin: 140px 230px 25px 0px;
+}
+
+.footer-email {
+    background-color: black;
+    border-radius: 5px; 
+    padding: 10px 40px 10px 0px; 
+    border-color: white; 
+    text-align: center;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+.footer-button {
+    margin-top: 10px; 
+    font-size: 18px;
+    font-weight: 500; 
+    padding: 5px 10px; 
+    color: white; 
+    background-color: #005FAC; 
+    border-radius: 5px;
+}
