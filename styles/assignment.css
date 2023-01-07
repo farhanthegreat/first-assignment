@@ -183,7 +183,8 @@ main .list-align {
 
 .footer-text {
     margin: 130px 0px 130px 130px;
-    padding-right: 40px;
+    padding-right: 200px;
+    padding-left: 120px;
     color: white;
 }
 
@@ -191,6 +192,11 @@ main .list-align {
     font-size: 25px; 
     font-weight: 600px;
 }
+
+.subscribe {
+    padding-right: 150px;
+}
+
 
 
 .sub-text {
