@@ -90,4 +90,63 @@ main .list-align {
     color: #444343;
 }
 
+/* plan styles */
+.plans {
+    display: flex;
+    position: absolute;
+    width: 1141px;
+    height: 202.96px;
+    left: 230px;
+    top: 1889px;
+}
+.plans .plans-element {
+    text-align: center;
+    margin: 20px 30px;
+}
+.plans div .plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.plan-description {
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color:#444343;
+}
+
+/* image style */
+
+.img-bg {
+    background-image:url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat:no-repeat, no-repeat;
+    background-position: top, left;
+    margin: 130px 230px 130px 0px;
+    position: absolute;
+    width: 1140px;
+    height: 200px;
+    left: 230px;
+    top: 2220px;
+    border-radius: 10px;
+}
+
+.image-text {
+    color: white;
+    font-size: 40px;
+    font-weight: 700px;
+    margin: 30px 0px 0px 30px;
+}
+
+.image-button {
+    width: 140px;
+    height: 50px;
+    border: none;
+    color: #005FAC;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* footer style */
+
 
